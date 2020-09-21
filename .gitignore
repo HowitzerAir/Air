@@ -2,14 +2,14 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
-/[Ar]tifacts/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Ar]tifacts/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -59,7 +59,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-Air's Skåne Flight Simulator/Library/Artifacts/ff/ff7bb336cd1f3e28501e1373cb0edfb1
+Air's Skåne Flight Simulator/Library/Artifacts/
 Air's Skåne Flight Simulator/Library/Artifacts/ff/ff47b1b2f93218bee583c92542510735
 Air's Skåne Flight Simulator/Library/Artifacts/ff/ff41d547eaaaeeeb22707e34143733fa
 Air's Skåne Flight Simulator/Library/Artifacts/ff/ff3af738407e94db867c53c9623d79bf
