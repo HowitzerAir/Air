@@ -35,6 +35,34 @@ public class Controlls : MonoBehaviour
     {
         if (KontrollLäge == FlightControlls.PiltangenterFörPitchOchBank)
         {
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                pitchCommand = 1;
+            }
+            else if(Input.GetKey(KeyCode.DownArrow))
+            {
+                pitchCommand = -1;
+            }
+            else
+            {
+                pitchCommand = 0;
+            }
+
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                bankCommand = 1;
+            }
+            else if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                bankCommand = -1;
+            }
+            else
+            {
+                bankCommand = 0;
+            }
+
+            print(pitchCommand);
+            print(bankCommand);
             KontrollCheck(Input.GetKey(KeyCode.DownArrow), Input.GetKey(KeyCode.UpArrow), pitchCommand);
             KontrollCheck(Input.GetKey(KeyCode.RightArrow), Input.GetKey(KeyCode.LeftArrow), bankCommand);
             KontrollCheck(Input.GetKey(KeyCode.Period), Input.GetKey(KeyCode.Comma), yawCommand);
@@ -47,11 +75,27 @@ public class Controlls : MonoBehaviour
         }
         if(Input.GetKey(KeyCode.W))
         {
-            print("Pitch Down");
+            //print("Pitch Down");
         }
         if(pitchCommand == -1)
         {
-            print("Pitch Up");
+            //print("Pitch Up");
+        }
+
+        if (GasKontroll == ThrottleControls.ShiftOchCtrl)
+        {
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                throttleCommand = 1;
+            }
+            else if (Input.GetKey(KeyCode.LeftControl))
+            {
+                throttleCommand = -1;
+            }
+            else
+            {
+                throttleCommand = 0;
+            }
         }
     }
 
