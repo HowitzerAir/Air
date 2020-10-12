@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FlightModel : MonoBehaviour
 {
+    public float airDensity;
     public Rigidbody aircraft;
     float engineThrust;
     float drag;
@@ -16,6 +17,7 @@ public class FlightModel : MonoBehaviour
     float yacc;
     float zacc;
     public float weight;
+    public float CL;
     void Start()
     {
             
@@ -24,7 +26,7 @@ public class FlightModel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lift = wingarea * speed;
+        lift = ((airDensity * speed) / 2) * wingarea;
 
         aircraft.AddForce(0, lift, 0);
         aircraft.AddForce(0, 0, engineScript.propThrust);
