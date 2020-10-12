@@ -16,10 +16,12 @@ public class engineScript : MonoBehaviour
     #endregion
 
     #region ThrustVariables
-    float engRpm; //Engine RPM, nummer för motor, också med i uträkning
+    public float expectedThrust;
+    public static float engRpm; //Engine RPM, nummer för motor, också med i uträkning
     float propBladeArea; //Nummer för uträkningar
     int propNumber; //Mer nummer för uträkningar    
     float engineSpeed; //Nummer för uträkning
+    float throttleRPM;
     #endregion 
     // Start is called before the first frame update
     void Start()
@@ -79,8 +81,11 @@ public class engineScript : MonoBehaviour
             {
                 engRpm--;
             }
-
+            throttleRPM = engRpm - idleRPM;
         }
+        
+        print(throttleRPM + "thrPRM");
+        propThrust = (throttleRPM / maxRPM) * 8200;
 
     }
 }

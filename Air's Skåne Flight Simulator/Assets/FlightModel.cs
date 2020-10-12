@@ -15,6 +15,7 @@ public class FlightModel : MonoBehaviour
     float xacc;
     float yacc;
     float zacc;
+    public float weight;
     void Start()
     {
             
@@ -26,5 +27,6 @@ public class FlightModel : MonoBehaviour
         lift = wingarea * speed;
 
         aircraft.AddForce(0, lift, 0);
+        aircraft.AddForce(0, 0, engineScript.propThrust);
     }
 }
