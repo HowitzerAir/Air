@@ -26,9 +26,12 @@ public class FlightModel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        speed = aircraft.velocity.magnitude;
         lift = ((airDensity * speed) / 2) * wingarea;
 
-        aircraft.AddForce(0, lift, 0);
-        aircraft.AddForce(0, 0, engineScript.propThrust);
+        aircraft.AddRelativeForce(0, lift, 0);
+        aircraft.AddRelativeForce(0, 0, engineScript.propThrust);
+        aircraft.SetMaxAngularVelocity(0);
+        print(aircraft.velocity + "m/s");
     }
 }
