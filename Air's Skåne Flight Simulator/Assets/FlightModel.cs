@@ -8,7 +8,7 @@ public class FlightModel : MonoBehaviour
     public Rigidbody aircraft;
     float engineThrust;
     float drag;
-    float lift;
+    public float lift;
     float turn;
     float pitch;
     public float speed;
@@ -18,9 +18,10 @@ public class FlightModel : MonoBehaviour
     float zacc;
     public float weight;
     public float CL;
+    public float surfacedrag;
     void Start()
     {
-            
+
     }
 
     // Update is called once per frame
@@ -31,7 +32,23 @@ public class FlightModel : MonoBehaviour
 
         aircraft.AddRelativeForce(0, lift, 0);
         aircraft.AddRelativeForce(0, 0, engineScript.propThrust);
-        aircraft.SetMaxAngularVelocity(0);
         print(aircraft.velocity + "m/s");
+
+
+        if (Controlls.bankCommand > 0)
+        {
+            aircraft.AddTorque(0, 25, 0);
+        }
+        else if (Controlls.bankCommand < 0)
+        {
+            aircraft.AddTorque(0, -25, 0);
+        }
+        else
+        {
+            aircraft.AddTorque(0, 0, 0);
+        }
+
+
+
     }
 }
