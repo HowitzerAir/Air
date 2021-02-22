@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Air
-  productName: "Sk\xE5ne Flight Simulator"
+  companyName: DefaultCompany
+  productName: "Air's Sk\xE5ne Flight Simulator"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -125,7 +125,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.03Pre Alpha
+  bundleVersion: 1.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -564,12 +564,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: 2D_BuiltInRenderer
   metroPackageVersion: 
-  metroCertificatePath: "C:\\Users\\sebbe\\Documents\\Github\\Air\\Air's Sk\xE5ne
-    Flight Simulator\\Assets\\WSATestCertificate.pfx"
+  metroCertificatePath: 
   metroCertificatePassword: 
-  metroCertificateSubject: Air
-  metroCertificateIssuer: Air
-  metroCertificateNotAfter: 00b78fdd06f1d701
+  metroCertificateSubject: 
+  metroCertificateIssuer: 
+  metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: 2D_BuiltInRenderer
   wsaImages: {}
   metroTileShortName: 
