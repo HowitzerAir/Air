@@ -34,14 +34,7 @@ public class engineScript : MonoBehaviour
     {
 
 
-        if (Input.GetKeyUp(KeyCode.I))
-        {
-            engineOn = true;
-        }
-        else if (engineOn && Input.GetKeyUp(KeyCode.I))
-        {
-            engineOn = false;
-        }
+
         
         if(throttle > 100)
         {
