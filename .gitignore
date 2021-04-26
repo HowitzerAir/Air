@@ -66,3 +66,4 @@ Air's Skåne Flight Simulator/Library/
 *.json
 Air's Skåne Flight Simulator/Library/ArtifactDB
 Air's Skåne Flight Simulator/Library/SourceAssetDB
+*.meta
