@@ -11,7 +11,7 @@ public class FlightModel : MonoBehaviour
     public float lift;
     float turn;
     float pitch;
-    public float speed;
+    static public float speed;
     public float wingarea;
     float xacc;
     float yacc;
