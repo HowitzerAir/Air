@@ -170,6 +170,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 875771808772063519, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -187,16 +188,27 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+=======
+    - target: {fileID: 5577484142165040583, guid: e8fb2915f5511214698e354bbb80b6f8, type: 3}
+>>>>>>> parent of b791040 (Speedometer)
       propertyPath: m_LocalPosition.x
       value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: -1.5464888
+=======
+      value: 8.275473
+>>>>>>> parent of b791040 (Speedometer)
       objectReference: {fileID: 0}
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 360
+=======
+      value: -5.79
+>>>>>>> parent of b791040 (Speedometer)
       objectReference: {fileID: 0}
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_LocalRotation.x
@@ -234,6 +246,7 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 60
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
 --- !u!1 &39169327 stripped
@@ -351,6 +364,23 @@ Transform:
   m_PrefabInstance: {fileID: 67331970}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &122462886
+=======
+    - target: {fileID: 5577484142165040585, guid: e8fb2915f5511214698e354bbb80b6f8, type: 3}
+      propertyPath: weight
+      value: 502
+      objectReference: {fileID: 0}
+    - target: {fileID: 5577484142165040585, guid: e8fb2915f5511214698e354bbb80b6f8, type: 3}
+      propertyPath: CL
+      value: 646
+      objectReference: {fileID: 0}
+    - target: {fileID: 5577484142165040587, guid: e8fb2915f5511214698e354bbb80b6f8, type: 3}
+      propertyPath: m_Name
+      value: C152
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8fb2915f5511214698e354bbb80b6f8, type: 3}
+--- !u!1 &519420028
+>>>>>>> parent of b791040 (Speedometer)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -425,14 +455,74 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &163003228
 MeshRenderer:
+=======
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 84
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1.7900009, y: 7.3945274, z: -0.6199999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1283852902}
+  m_Father: {fileID: 1859177517}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1182640500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3017972179260221534, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+  m_PrefabInstance: {fileID: 545144462385521651}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1182640505
+BoxCollider:
+>>>>>>> parent of b791040 (Speedometer)
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 163003225}
   m_Enabled: 1
   m_CastShadows: 1
@@ -477,6 +567,16 @@ MeshFilter:
   m_GameObject: {fileID: 163003225}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &170148478
+=======
+  m_GameObject: {fileID: 1182640500}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1283852901
+>>>>>>> parent of b791040 (Speedometer)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -484,23 +584,34 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 170148479}
   - component: {fileID: 170148482}
   - component: {fileID: 170148481}
   - component: {fileID: 170148480}
   m_Layer: 0
   m_Name: RunwaySection (6)
+=======
+  - component: {fileID: 1283852902}
+  m_Layer: 0
+  m_Name: HUD
+>>>>>>> parent of b791040 (Speedometer)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &170148479
+=======
+--- !u!4 &1283852902
+>>>>>>> parent of b791040 (Speedometer)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 170148478}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.2, y: 55.2, z: 89.700005}
@@ -572,10 +683,29 @@ MeshFilter:
   m_GameObject: {fileID: 170148478}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &199607356
+=======
+  m_GameObject: {fileID: 1283852901}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5299713643934226933}
+  - {fileID: 2066641309}
+  m_Father: {fileID: 519420032}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1859177517 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5577484142165040583, guid: e8fb2915f5511214698e354bbb80b6f8, type: 3}
+  m_PrefabInstance: {fileID: 353134847}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2066641308
+>>>>>>> parent of b791040 (Speedometer)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 689896468}
     m_Modifications:
     - target: {fileID: 875771808772063519, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
@@ -587,9 +717,15 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3017972179260221534, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+=======
+    m_TransformParent: {fileID: 1283852902}
+    m_Modifications:
+    - target: {fileID: 4550618037333178937, guid: ed15d2cb223611a4cb6bbc5024aed716, type: 3}
+>>>>>>> parent of b791040 (Speedometer)
       propertyPath: m_Name
       value: Cube (10)
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3017972179260221534, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
@@ -597,18 +733,35 @@ PrefabInstance:
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_LocalPosition.x
       value: 80
+=======
+    - target: {fileID: 4550618037333178938, guid: ed15d2cb223611a4cb6bbc5024aed716, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.4
+>>>>>>> parent of b791040 (Speedometer)
       objectReference: {fileID: 0}
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: -1.5464888
+=======
+      value: -0.5
+>>>>>>> parent of b791040 (Speedometer)
       objectReference: {fileID: 0}
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: -120
+=======
+      value: 0.4
+>>>>>>> parent of b791040 (Speedometer)
       objectReference: {fileID: 0}
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_LocalRotation.x
+<<<<<<< HEAD
       value: -0
+=======
+      value: 0.7071068
+>>>>>>> parent of b791040 (Speedometer)
       objectReference: {fileID: 0}
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_LocalRotation.y
@@ -620,15 +773,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -638,6 +791,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
       propertyPath: m_LocalScale.z
       value: 60
@@ -999,10 +1153,82 @@ MeshFilter:
   m_GameObject: {fileID: 233282406}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &288198075
+=======
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ed15d2cb223611a4cb6bbc5024aed716, type: 3}
+--- !u!4 &2066641309 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4550618037333178938, guid: ed15d2cb223611a4cb6bbc5024aed716, type: 3}
+  m_PrefabInstance: {fileID: 2066641308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &545144462385521651
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 875771808772063519, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf4dbac7b09a0124eb045a561f11ea4d, type: 2}
+    - target: {fileID: 3017972179260221534, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_Name
+      value: Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.120766
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5464888
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.2549453
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+--- !u!1001 &1177539738667591292
+>>>>>>> parent of b791040 (Speedometer)
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 689896468}
     m_Modifications:
     - target: {fileID: 875771808772063519, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
@@ -5746,83 +5972,7 @@ BoxCollider:
   m_Size: {x: 1, y: 1, z: 0.99999994}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &545144462385521651
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 875771808772063519, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f2cb52f15d7e889409396876f50a966d, type: 2}
-    - target: {fileID: 875771808772063519, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_ReceiveShadows
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3017972179260221534, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_Name
-      value: Cube
-      objectReference: {fileID: 0}
-    - target: {fileID: 3017972179260221534, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.5464888
-      objectReference: {fileID: 0}
-    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 60
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
---- !u!1001 &1177539738667591292
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
+=======
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1177539738490407936, guid: 2ecfc8be605af77459430c73de227ebe, type: 3}
@@ -5863,7 +6013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1177539738490407938, guid: 2ecfc8be605af77459430c73de227ebe, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1177539738490407938, guid: 2ecfc8be605af77459430c73de227ebe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5878,6 +6028,188 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2ecfc8be605af77459430c73de227ebe, type: 3}
+--- !u!1001 &5299713643934226932
+>>>>>>> parent of b791040 (Speedometer)
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1283852902}
+    m_Modifications:
+<<<<<<< HEAD
+    - target: {fileID: 875771808772063519, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f2cb52f15d7e889409396876f50a966d, type: 2}
+    - target: {fileID: 875771808772063519, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3017972179260221534, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+=======
+    - target: {fileID: 3101958912301520132, guid: b49f6062498332d4cae18854c528769f, type: 3}
+>>>>>>> parent of b791040 (Speedometer)
+      propertyPath: m_Name
+      value: Tachometer
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 3017972179260221534, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+=======
+    - target: {fileID: 4129014987515625367, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+>>>>>>> parent of b791040 (Speedometer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129014987515625367, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
+      value: -1.5464888
+=======
+      value: 0
+>>>>>>> parent of b791040 (Speedometer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129014987515625367, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
+      value: 0
+=======
+      value: 0.09
+>>>>>>> parent of b791040 (Speedometer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644632615024164959, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644632615024164959, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644632615024164959, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644632615024164959, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644632615024164959, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644632615024164959, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644632615024164959, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644632615024164959, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD
+      value: 2
+=======
+      value: 0
+>>>>>>> parent of b791040 (Speedometer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644632615024164959, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644632615024164959, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644632615024164959, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 4439474313835538939, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 60
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e89eb59bf6522944eaa8d88573da5351, type: 3}
+--- !u!1001 &1177539738667591292
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1177539738490407936, guid: 2ecfc8be605af77459430c73de227ebe, type: 3}
+      propertyPath: m_Name
+      value: Settings Object
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177539738490407937, guid: 2ecfc8be605af77459430c73de227ebe, type: 3}
+      propertyPath: GasKontroll
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177539738490407938, guid: 2ecfc8be605af77459430c73de227ebe, type: 3}
+=======
+    - target: {fileID: 7712787608660089796, guid: b49f6062498332d4cae18854c528769f, type: 3}
+>>>>>>> parent of b791040 (Speedometer)
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712787608660089796, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712787608660089796, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
+      value: -1.8215657
+=======
+      value: 0
+>>>>>>> parent of b791040 (Speedometer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712787608660089796, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.27059805
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712787608660089796, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6532815
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712787608660089796, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6532815
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712787608660089796, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalRotation.w
+<<<<<<< HEAD
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177539738490407938, guid: 2ecfc8be605af77459430c73de227ebe, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+=======
+      value: 0.27059805
+>>>>>>> parent of b791040 (Speedometer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712787608660089796, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712787608660089796, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712787608660089796, guid: b49f6062498332d4cae18854c528769f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 2ecfc8be605af77459430c73de227ebe, type: 3}
 --- !u!1001 &5299713643934226932
 PrefabInstance:
@@ -5987,6 +6319,8 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+=======
+>>>>>>> parent of b791040 (Speedometer)
   m_SourcePrefab: {fileID: 100100000, guid: b49f6062498332d4cae18854c528769f, type: 3}
 --- !u!4 &5299713643934226933 stripped
 Transform:
